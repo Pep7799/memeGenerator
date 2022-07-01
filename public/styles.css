@@ -115,3 +115,43 @@ body {
 .meme {
     position: relative;
 }
+
+@media only screen and (max-width: 300px) {
+    .nav-text1 {
+        font-size: 14px;
+    }
+    
+.nav-text2 {
+    font-size: 12px;
+    padding-right: 5px;
+}
+.form-button {
+    margin-top: 40px;
+    margin-left: 20px;
+    padding: 7px 20px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 10px;
+    cursor: pointer;  
+}
+.meme-image {
+    width: 100%;
+    padding-top: 20px;
+    height: 300px;
+    margin-left: 25px;
+    position: absolute;
+    padding-right: 50px;
+}
+
+.form-input {
+    margin-top: 15px;
+    height: 25px;
+    width: 150px;
+    margin-right: 25px;
+    margin-left: 10px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+}

@@ -9,7 +9,7 @@ export default function Navbar () {
             </div>
 
             <div className="nav-right">
-                <h5 className="nav-text2">React Course - Project 3</h5>
+                <h5 className="nav-text2">React Project</h5>
             </div>
         </nav>
     )
