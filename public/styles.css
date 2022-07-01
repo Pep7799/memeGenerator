@@ -8,6 +8,7 @@ body {
 }
 
 .navbar {
+    width: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
     display: flex;
@@ -116,7 +117,7 @@ body {
     position: relative;
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 600px) {
     .nav-text1 {
         font-size: 14px;
     }
@@ -127,16 +128,17 @@ body {
 }
 .form-button {
     margin-top: 40px;
-    margin-left: 20px;
-    padding: 7px 20px;
+    margin-left: 60px;
+    padding: 7px 10px;
     background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
     border-radius: 8px;
     color: #FFFFFF;
     font-size: 10px;
     cursor: pointer;  
+   
 }
 .meme-image {
-    width: 100%;
+    width: 100vh;
     padding-top: 20px;
     height: 300px;
     margin-left: 25px;
@@ -152,6 +154,15 @@ body {
     margin-left: 10px;
     border-radius: 3px;
     font-size: 16px;
+}
+.navbar {
+    width: 100vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+
 }
 
 }
